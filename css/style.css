@@ -1,0 +1,123 @@
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* HEADER ============================== */
+#header {
+  /* background: rgb(88, 88, 255); */
+  width: 100%;
+  position: absolute;
+}
+
+.header-wrap {
+  height: 100px;
+}
+
+.logo-wrap {
+  position: relative;
+  left: -5px;
+}
+
+.nav-list-wrap {
+  position: relative;
+  left: 10px;
+}
+
+.nav-list-item a {
+  margin: 20px;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.icon {
+  margin-left: 20px;
+  font-size: 25px;
+}
+/* /HEADER ============================== */
+
+
+/* HERO ============================== */
+#hero {
+  height: 100vh;
+  background-image: url(../img/hero.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  position: relative;
+  top: 320px;
+  left: 0;
+  animation-name: hero-animation;
+  animation-duration: 1s;
+}
+
+.hero-title {
+  position: relative;
+  margin-top: 0;
+  font-size: 64px;
+  font-weight: 600;
+  color: #ffffff;
+  animation-name: hero-animation;
+  animation-duration: 0.8s;
+}
+
+span {
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.hero-btn {
+  padding: 15px 25px;
+  font-size: 11px;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+/* /HERO ============================== */
+
+/* OFFER ============================== */
+/* /OFFER ============================== */
+
+/* BLOG ============================== */
+/* /BLOG ============================== */
+
+/* PARTNERS ============================== */
+/* /PARTNERS ============================== */
+
+/* NEWSLETTER ============================== */
+/* /NEWSLETTER ============================== */
+
+/* FOOTER ============================== */
+/* /FOOTER ============================== */
+
+
+/* KEY FRAMES ============================== */
+@keyframes hero-animation {
+  0% {
+    left: -99px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
