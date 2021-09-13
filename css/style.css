@@ -40,16 +40,16 @@ a {
   color: #fff;
 }
 
-.nav-link::after {
-  content: "";
-  width: 0;
-  position: absolute;
-  top: 120%;
-  left: -2px;
-  height: 2px;
-  background-color: #eefab9;
+.nav-list-item a::after {
+  content: '';
   display: inline-block;
-  transition: all 0.5s ease;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  top: 19px;
+  left: 0;
+  background-color: #ffa500;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-list-item a:hover::after {
